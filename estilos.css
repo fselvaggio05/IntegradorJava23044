@@ -1,0 +1,88 @@
+.barra {
+    background-color: rgb(53, 58, 64);
+
+}
+
+.imgCodoaCodo{
+    width: 20%;
+    height: 100%;
+    margin-left: 20%;
+
+}
+
+.brillo {
+    filter:brightness(50%);
+}   
+
+
+.btnVerde {
+    background-color: rgb(41, 167, 68);
+    color: white;
+}
+
+.btnJavaScript{
+    background-color: rgb(254, 196, 6);
+    font-size: x-small;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btnReact{
+    background-color: rgb(23, 162, 185);
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+
+.btnNegocios{
+    background-color: rgb(109, 118, 125);
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+
+.btnStart{
+    background-color: rgb(220, 53, 71);
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+
+.textoDescripcion{
+
+
+}
+
+.imgHonolulu{
+    width: 100%;
+    height: 100%;   
+}
+
+
+.btnEnviar{
+    background-color: rgb( 150, 201, 62);
+    
+}
+
+.barraPie{
+    background-color: rgb(31, 82, 113);
+    
+}
+
