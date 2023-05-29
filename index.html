@@ -50,7 +50,7 @@
                 <a class="nav-link text-white" href="#quieroOrador">Conviertete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-success" href="#">Comprar tickets</a>
+                <a class="nav-link text-success" href="compra.html">Comprar tickets</a>                           
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@
                 a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
               </p>
               <a href="#quieroOrador" class="justify-content-end btn btn-outline-light">Quiero ser orador</a>
-              <a href="#" class="btn btnVerde">Comprar tickets</a>
+              <a href="compra.html" class="btn btnVerde">Comprar tickets</a>
             </div>
           </div>
         </div>
@@ -204,6 +204,7 @@
         area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una
         ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie). </p>
       <a href="#" class="btn btn-outline-light">Conoce mas</a>
+       
     </div>
   </div>
 
@@ -245,50 +246,51 @@
   </div>
 
   <!-- comprar entradas -->
-  <div class="text-center mt-5">
-    <div class="fs-6 text mt-2">Comprar</div>
-    <div class="fs-4 text fw-bold">ENTRADAS</div>
-  </div>
-
-  <div class="mt-5 container">
-    <div class="row">
-      <div class="col-md">
-        <input type="text" placeholder="Nombre" class="form-control">
-      </div>
-      <div class="col-md mb-3">
-        <input type="text" placeholder="Apellido" class="form-control">
-      </div>
+  <div id="comprarEntradas">
+    <div class="text-center mt-5">
+      <div class="fs-6 text mt-2">Comprar</div>
+      <div class="fs-4 text fw-bold">ENTRADAS</div>
     </div>
 
-    <div class="row">
-      <div class="col-md">
-        <input type="text" placeholder="Email" class="form-control">
-      </div>
-      <div class="col-md mb-3">
-        <input type="text" placeholder="Telefono Movil" class="form-control">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md">
-        <input type="text" id="cantEntradas"  placeholder="Cantidad de entradas" class="form-control">
-      </div>
-      <div class="col-md">
-        <select class="form-select" id="porcDescuento" onchange="calcularPrecio()" >
-          <option value="10">Particular</option>
-          <option value="30">Estudiante</option>
-          <option value="50">Orador</option>
-        </select>
+    <div class="mt-5 container">
+      <div class="row">
+        <div class="col-md">
+          <input type="text" placeholder="Nombre" class="form-control">
+        </div>
+        <div class="col-md mb-3">
+          <input type="text" placeholder="Apellido" class="form-control">
+        </div>
       </div>
 
-      <div class="col-md mb-3">
-        <input type="text" name="costo" id="costo" class="form-control" disabled placeholder="Costo de entradas">
+      <div class="row">
+        <div class="col-md">
+          <input type="text" placeholder="Email" class="form-control">
+        </div>
+        <div class="col-md mb-3">
+          <input type="text" placeholder="Telefono Movil" class="form-control">
+        </div>
       </div>
-      <div class="small fst-italic">El valor de la entrada es de $1.000        
-      </div>
-      <div >
-        <input type="button" value="Comprar" class="form-control btn btn-primary">
-      </div>
+
+      <div class="row">
+        <div class="col-md">
+          <input type="text" id="cantEntradas" placeholder="Cantidad de entradas" class="form-control">
+        </div>
+        <div class="col-md">
+          <select class="form-select" id="porcDescuento" onchange="calcularPrecio()">
+            <option value="10">Particular</option>
+            <option value="30">Estudiante</option>
+            <option value="50">Orador</option>
+          </select>
+        </div>
+
+        <div class="col-md mb-3">
+          <input type="text" name="costo" id="costo" class="form-control" disabled placeholder="Costo de entradas">
+        </div>
+        <div class="small fst-italic">El valor de la entrada es de $1.000
+        </div>
+        <div>
+          <input type="button" value="Comprar" class="form-control btn btn-primary">
+        </div>
 
       </div>
 
