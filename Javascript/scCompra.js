@@ -37,7 +37,15 @@ function validarEmail(){
   }
 } 
 
+function borrarResumen()
+{
+  document.getElementById("nom").innerHTML="";
+  document.getElementById("ape").innerHTML="";
+  document.getElementById("em").innerHTML="";
+  document.getElementById("cantEntr").innerHTML="";
+  document.getElementById("precioFinal").innerHTML="";
 
+}
 
 
 function mostrarResumen(){
